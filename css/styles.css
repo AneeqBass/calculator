@@ -40,7 +40,10 @@ body {
     color: white;
   }
   
-  button:hover {
+  button:hover:not(button[disabled]) {
     background-color: #888;
   }
+  /* button[disabled]:hover {
+    background-color: initial;
+  } */
   
